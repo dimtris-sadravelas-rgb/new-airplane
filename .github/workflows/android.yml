@@ -15,6 +15,13 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
+      - name: Accept Android SDK licenses
+        run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
+
+      - name: Install Android build tools
+        run: |
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platform-tools" "build-tools;35.0.0" "platforms;android-35"
+
       - name: Build APK with Buildozer
         uses: digreatbrian/buildozer-action@v2
         with:
