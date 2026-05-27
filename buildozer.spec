@@ -21,9 +21,9 @@ fullscreen = 0
 # Splash Screen (αν έχεις)
 # presplash.filename = presplash.png
 
-android.api = 34
-android.minapi = 21
-android.sdk = 34
+android.api = 35
+android.minapi = 23
+android.sdk = 35
 android.ndk = 25b
 
 android.permissions = INTERNET
