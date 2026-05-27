@@ -31,7 +31,7 @@ android.permissions = INTERNET
 
 android.allow_backup = True
 
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 
 [buildozer]
 
