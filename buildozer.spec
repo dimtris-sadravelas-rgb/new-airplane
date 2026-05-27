@@ -25,6 +25,7 @@ android.api = 35
 android.minapi = 23
 android.sdk = 35
 android.ndk = 25b
+android.accept_sdk_license = True
 
 android.permissions = INTERNET
 
